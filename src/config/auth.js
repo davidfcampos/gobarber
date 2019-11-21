@@ -1,4 +1,4 @@
 module.exports = {
-  secret: 'e8be96d83857327e7b0e34b98f027e8c',
+  secret: process.env.APP_SECRET,
   expiresIn: '7d',
 };
